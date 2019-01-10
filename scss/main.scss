@@ -262,7 +262,13 @@ body {
     float: none;
     width: 100%;
     padding: 10px;
+  }
+  .main-news {
     text-align: center;
+    .news-btn {
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
   }
 }
 // Medium devices (tablets)
@@ -271,6 +277,23 @@ body {
     width: 33.3333%;
     &:first-child {
       margin-left: 0;
+    }
+  }
+  .col-1-2 {
+    float: none;
+    width: 100%;
+  }
+}
+@media (max-width: 1140px) {
+  .main-paralax {
+  }
+  .col-1-2 {
+    &:first-child {
+      width: 40%;
+    }
+    &:last-child {
+      width: 60%;
+      text-align: center;
     }
   }
 }
